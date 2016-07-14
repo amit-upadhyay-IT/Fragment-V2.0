@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="left_fragment">Left Fragment</string>
+    <string name="entre_movie">Entre Movie</string>
+    <string name="entre_rating">Entre Rating</string>
+    <string name="sumbit_it">Sumbit it</string>
+    <string name="movie_name">Movie Name</string>
+    <string name="thanks">Thanks</string>
+    <string name="top_fragment">Top Fragment</string>
+    <string name="bottom_fragment">Bottom Fragment</string>
+    <string name="tnx">THANKS</string>
+</resources>

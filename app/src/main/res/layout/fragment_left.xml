@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/top_fragment"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/thirty_two_sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/movieNameET"
+        android:layout_marginTop="@dimen/fifteen"
+        android:hint="@string/entre_movie"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/movieRatingET"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="@dimen/fifteen"
+        android:hint="@string/entre_rating"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sumbit_it"
+        android:id="@+id/sumbitButton"
+        android:layout_marginTop="@dimen/tem"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

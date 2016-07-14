@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bottom_fragment"
+        android:textSize="32sp"
+        android:layout_marginBottom="@dimen/tem"
+        android:layout_gravity="center_horizontal"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#237b03"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/fifteen"
+        android:layout_marginBottom="@dimen/fifteen"
+        android:id="@+id/movieNameTV"
+        android:hint="@string/movie_name"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#237b03"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_gravity="center_horizontal" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#237b03"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#f23c05"
+        android:textSize="32sp"
+        android:layout_marginTop="@dimen/thirty"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/thanksTV"/>
+
+</LinearLayout>
